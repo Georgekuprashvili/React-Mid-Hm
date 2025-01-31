@@ -48,3 +48,34 @@
   border: 0;
   cursor: pointer;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input-error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+@media (max-width: 412px) {
+  .confirm {
+    width: 327px;
+    height: 53px;
+  }
+  .name {
+    width: 327px;
+    height: 45px;
+  }
+  .month {
+    width: 72px;
+    height: 45px;
+  }
+  .cvc {
+    width: 164px;
+    height: 45px;
+  }
+}

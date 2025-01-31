@@ -7,12 +7,12 @@ import Confirm from "../__atoms/Confirm";
 function Form() {
   return (
     <>
-      <div className="form">
+      <form className="form">
         <CardHolder />
         <Cardnumbers />
         <Data />
         <Confirm />
-      </div>
+      </form>
     </>
   );
 }

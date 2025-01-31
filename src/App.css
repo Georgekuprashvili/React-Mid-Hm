@@ -8,3 +8,14 @@
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 1280px) {
+  #root {
+    flex-direction: column;
+  }
+}
+@media (max-width: 612px) {
+  #root {
+    justify-content: start;
+    gap: 170px;
+  }
+}

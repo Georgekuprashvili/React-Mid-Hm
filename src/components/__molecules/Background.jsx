@@ -8,7 +8,7 @@ function Background() {
       <div className="background">
         <div className="first_card">
           <div>
-            <img src={photo2} />
+            <img className="photo2" src={photo2} />
           </div>
           <div className="card_number">0000 0000 0000 0000</div>
           <div className="name_box">
